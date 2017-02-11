@@ -5,7 +5,7 @@ public class Lab3Exercises {
         JFrame myFrame = new JFrame("Lucass");
         myFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         myFrame.setLocation(800, 500);
-        myFrame.setSize(400, 300);
+        myFrame.setSize(300, 250);
         MyPanelClass myPanel = new MyPanelClass();
         myFrame.getContentPane().add(myPanel);
         myFrame.setVisible(true);
